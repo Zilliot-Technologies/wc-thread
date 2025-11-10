@@ -1,0 +1,28 @@
+# Python cache
+.pytest_cache/
+__pycache__/
+
+# ESP-IDF build outputs
+build/
+build_*_*/
+
+# IDF-CI build run output
+build_summary_*.xml
+app_info_*.txt
+size_info_*.txt
+
+# pytest-embedded log folder
+pytest_embedded_log/
+
+# idf-component-manager output
+dependencies.lock
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore backup sdkconfig files
+sdkconfig.old
+sdkconfig.defaults.old
